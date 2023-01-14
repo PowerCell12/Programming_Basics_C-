@@ -1,15 +1,5 @@
-using System;
+int a = int.Parse(Console.ReadLine());
 
-namespace HelloSoftuni
-{
+int b = int.Parse(Console.ReadLine());
 
-    class program
-    {
-        static void Main(string[] args)
-        {
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            Console.WriteLine(a * b);
-        }
-    }
-}
+Console.WriteLine(a * b);
