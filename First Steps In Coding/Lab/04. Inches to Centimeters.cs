@@ -1,16 +1,7 @@
-using System;
+double number = double.Parse(Console.ReadLine());
 
-namespace HelloSoftuni
-{
+double inches = 2.54;
 
-    class program
-    {
-        static void Main(string[] args)
-        {
-           double number = double.Parse(Console.ReadLine());
-           double inches = 2.54;
-           double centimeters = number * inches;
-           Console.WriteLine(centimeters);
-        }
-    }
-}
+double centimeters = number * inches;
+
+Console.WriteLine(centimeters);
